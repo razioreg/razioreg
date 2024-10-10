@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en" version="4">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>RazioreG</title>
+    <meta name="description" content="Personal website RazioreG" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="RazioreG" />
+    <meta property="og:type" content="A type." />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <link rel="icon" href="./img/favicon.svg" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="./img/favicon.svg" sizes="any" />
+    <link rel="icon" href="./img/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./img/favicon.svg" />
+    <link rel="manifest" href="" />
+    <meta name="generator" content="" />
+    <link rel="sitemap" href="" />
+    <script src="./assets/main.js" defer=""></script>
+    <script defer="" data-domain="" src="./assets/script.js"></script>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <style>
+        .link-card__image[data-astro-cid-dohjnao5] {
+            margin-bottom: 20px;
+            width: 48px;
+            height: 48px;
+        }
+        
+        .link-card__image[data-astro-cid-dohjnao5] img[data-astro-cid-dohjnao5] {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .link-card__content[data-astro-cid-dohjnao5] h3[data-astro-cid-dohjnao5] {
+            margin-bottom: 10px;
+        }
+        
+        .link-card__content[data-astro-cid-dohjnao5] p[data-astro-cid-dohjnao5] {
+            font-size: 16px;
+        }
+        
+        .link-card[data-astro-cid-dohjnao5] {
+            opacity: 0;
+            filter: blur(4px);
+            transition: 1s all var(--cubic);
+        }
+        
+        .link-card[data-astro-cid-dohjnao5] a[data-astro-cid-dohjnao5] {
+            text-decoration: none;
+        }
+        
+        .link-card[data-astro-cid-dohjnao5]:nth-child(1) {
+            transition-delay: 0.1s;
+        }
+        
+        .link-card[data-astro-cid-dohjnao5]:nth-child(2) {
+            transition-delay: 0.2s;
+        }
+        
+        .link-card[data-astro-cid-dohjnao5]:nth-child(3) {
+            transition-delay: 0.3s;
+        }
+        
+        .link-card[data-astro-cid-dohjnao5]:nth-child(4) {
+            transition-delay: 0.4s;
+        }
+        
+        .link-card[data-astro-cid-dohjnao5]:nth-child(5) {
+            transition-delay: 0.5s;
+        }
+        
+        .link-card[data-astro-cid-dohjnao5]:nth-child(6) {
+            transition-delay: 0.6s;
+        }
+        
+        .link-card[data-astro-cid-dohjnao5].in-view {
+            opacity: 1;
+            filter: blur(0);
+        }
+        
+        .block__cards[data-astro-cid-i5mwzbw6] {
+            z-index: 4;
+        }
+        
+        .block__cards__intro[data-astro-cid-i5mwzbw6] {
+            margin: 0 0 40px;
+            @media only screen and (min-width: 1200px) {
+                max-width: 40%;
+            }
+        }
+        
+        .card-grid[data-astro-cid-i5mwzbw6] {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 80px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            @media only screen and (min-width: 1200px) {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        .block__hero[data-astro-cid-bbe6dxrz] {
+            background: var(--secondary) url(./img/hero-bg.png) no-repeat center center / cover;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            z-index: 5;
+        }
+        
+        .block__hero--simple[data-astro-cid-bbe6dxrz] {
+            height: 500px;
+        }
+        
+        .block__hero[data-astro-cid-bbe6dxrz] h1[data-astro-cid-bbe6dxrz] {
+            max-width: 90%;
+            color: var(--primary);
+        }
+        
+        .block__hero[data-astro-cid-bbe6dxrz] p[data-astro-cid-bbe6dxrz] {
+            font-size: 20px;
+            opacity: 0;
+        }
+        
+        .block__hero[data-astro-cid-bbe6dxrz] .button[data-astro-cid-bbe6dxrz] {
+            opacity: 0;
+        }
+        
+        .block__hero[data-astro-cid-bbe6dxrz] .row[data-astro-cid-bbe6dxrz],
+        .block__hero[data-astro-cid-bbe6dxrz] .container[data-astro-cid-bbe6dxrz] {
+            height: inherit;
+            position: relative;
+            top: -50px;
+        }
+        
+        .block__hero__scroll[data-astro-cid-bbe6dxrz] {
+            position: absolute;
+            top: 40px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-size: 16rem;
+            font-family: var(--scroll-font-family);
+            white-space: nowrap;
+            padding: 1rem;
+            color: #0000001a;
+            animation: marquee 30s linear infinite;
+            z-index: 1;
+        }
+        
+        .block__hero__image[data-astro-cid-bbe6dxrz] {
+            max-width: 100%;
+        }
+        
+        .block__hero__image[data-astro-cid-bbe6dxrz] img[data-astro-cid-bbe6dxrz] {
+            width: auto;
+            height: 75vh;
+            object-fit: cover;
+            border-radius: 30px;
+        }
+        
+        @keyframes marquee {
+            0% {
+                transform: translate(100%);
+            }
+            80% {
+                transform: translate(-250%);
+            }
+            to {
+                transform: translate(-250%);
+            }
+        }
+        
+        .block__hero[data-astro-cid-bbe6dxrz].in-view p[data-astro-cid-bbe6dxrz] {
+            animation: fadeInUp 1s var(--cubic);
+            animation-fill-mode: both;
+            animation-delay: 0.2s;
+        }
+        
+        .block__hero[data-astro-cid-bbe6dxrz].in-view .button[data-astro-cid-bbe6dxrz] {
+            animation: fadeInUp 1s var(--cubic);
+            animation-fill-mode: both;
+            animation-delay: 0.5s;
+        }
+        
+        .work-item[data-astro-cid-zmauy3r6] {
+            padding: 5vw;
+            border-right: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .work-item[data-astro-cid-zmauy3r6]:nth-child(2n) {
+            border-right: none;
+        }
+        
+        .work-item__image[data-astro-cid-zmauy3r6] {
+            display: block;
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .work-item__image[data-astro-cid-zmauy3r6] img[data-astro-cid-zmauy3r6] {
+            width: 100%;
+        }
+        
+        .work-item__content[data-astro-cid-zmauy3r6] h3[data-astro-cid-zmauy3r6] {
+            margin-bottom: 10px;
+        }
+        
+        .work-item__content[data-astro-cid-zmauy3r6] p[data-astro-cid-zmauy3r6] {
+            font-size: 14px;
+        }
+        
+        .work-item__content[data-astro-cid-zmauy3r6] a[data-astro-cid-zmauy3r6] {
+            margin: 0;
+        }
+        
+        .work-item__content[data-astro-cid-zmauy3r6] a[data-astro-cid-zmauy3r6]:hover {
+            text-decoration: underline;
+            color: var(--secondary);
+        }
+        
+        .block__work[data-astro-cid-wkx7uqji] {
+            z-index: 2;
+            padding-bottom: 0;
+        }
+        
+        .block__work__intro[data-astro-cid-wkx7uqji] {
+            @media only screen and (min-width: 1200px) {
+                max-width: 40%;
+            }
+        }
+        
+        .work-grid[data-astro-cid-wkx7uqji] {
+            display: grid;
+            margin-top: 4rem;
+            justify-content: space-between;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            @media only screen and (min-width: 1200px) {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        
+        .cursor-pointer[data-astro-cid-z6gx6xcw] {
+            cursor: pointer;
+        }
+        
+        .faq-item[data-astro-cid-z6gx6xcw] {
+            border-bottom: 1px solid var(--primary);
+            padding: 10px 0;
+            margin-bottom: 10px;
+        }
+        
+        .faq-item[data-astro-cid-z6gx6xcw] h4[data-astro-cid-z6gx6xcw] {
+            display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .faq-item[data-astro-cid-z6gx6xcw] h4[data-astro-cid-z6gx6xcw] svg[data-astro-cid-z6gx6xcw] {
+            width: 20px;
+        }
+        
+        .faq-item[data-astro-cid-z6gx6xcw] h4[data-astro-cid-z6gx6xcw].active svg[data-astro-cid-z6gx6xcw] {
+            transform: rotate(180deg);
+        }
+        
+        .faq-item[data-astro-cid-z6gx6xcw] p[data-astro-cid-z6gx6xcw] {
+            font-size: 16px;
+            margin: 0;
+        }
+        
+        .block__faqs[data-astro-cid-vaazyeln] {
+            z-index: 1;
+        }
+        
+        .block__faqs__intro[data-astro-cid-vaazyeln] {
+            margin: 0 0 40px;
+        }
+        
+        .block__background-image[data-astro-cid-tvwxzst6] {
+            min-height: 80vh;
+            overflow: hidden;
+            z-index: 3;
+        }
+        
+        .block__background-image[data-astro-cid-tvwxzst6] .container[data-astro-cid-tvwxzst6],
+        .block__background-image[data-astro-cid-tvwxzst6] .row[data-astro-cid-tvwxzst6] {
+            min-height: 80vh;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .block__background-image__content[data-astro-cid-tvwxzst6] {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        
+        .block__background-image[data-astro-cid-tvwxzst6].in-view .block__background-image__content[data-astro-cid-tvwxzst6] {
+            opacity: 1;
+            transform: translateY(0);
+            transition: 1s all var(--cubic);
+        }
+    </style>
+    <script type="module">
+        typeof window
+        < "u" && window.addEventListener( "scroll", ()=> { const e = document.getElementById("header"); window.scrollY > 100 ? e.classList.add("sticky") : e.classList.remove("sticky"); });
+    </script>
+</head>
+
+<body class="home" x-data="{ isActive: false }" :class="{ &#39;body-active&#39;: isActive }">
+    <header id="header" role="banner" class="header header--light" x-data="{ isActive: false }" data-astro-cid-3ef6ksr2="">
+        <div class="container" data-astro-cid-3ef6ksr2="">
+            <div class="row row--justified row--middle" data-astro-cid-3ef6ksr2="">
+                <div class="column column-m-12" data-astro-cid-3ef6ksr2="">
+                    <div class="row row--justified row--middle" data-astro-cid-3ef6ksr2="">
+                        <a href="./" class="logo" data-astro-cid-3ef6ksr2="">
+                            <svg width="85" height="28" viewBox="0 0 85 28" fill="none" xmlns="http://www.w3.org/2000/svg" data-astro-cid-3ef6ksr2="">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M23.8588 4.80005L40.8 14.4V33.8824L23.8588 43.2001L7.20001 33.8824V14.4L23.8588 4.80005ZM12.847 17.7883L23.8587 11.2942L34.8705 17.7883L29.7882 20.8942L23.8587 17.2236L18.494 20.8942V33.8825L12.847 30.4942V17.7883Z" fill="currentColor" class="stroke" data-astro-cid-3ef6ksr2="" />
+                            </svg>
+                        </a>
+                        <nav :class="{ &#39;mobile-menu-active&#39;: isActive }" data-astro-cid-3ef6ksr2="">
+                            <ul data-astro-cid-3ef6ksr2="">
+                                <li data-astro-cid-3ef6ksr2="">
+                                    <a href="#work" data-astro-cid-3ef6ksr2="">Work</a
+                    >
+                  </li>
+                  <li data-astro-cid-3ef6ksr2="">
+                    <a
+                      href="./about.html"
+                      data-astro-cid-3ef6ksr2=""
+                      >About</a
+                    >
+                  </li>
+                  <li data-astro-cid-3ef6ksr2="">
+                    <a
+                      href="./blog.html"
+                      data-astro-cid-3ef6ksr2=""
+                      >Blog</a
+                    >
+                  </li>
+                  <li data-astro-cid-3ef6ksr2="">
+                    <a
+                      href="./contact.html"
+                      data-astro-cid-3ef6ksr2=""
+                      >Contact</a
+                    >
+                  </li>
+                  <li data-astro-cid-3ef6ksr2="">
+                    <a
+                      href="https://github.com/razioreg"
+                      target="_blank"
+                      data-astro-cid-3ef6ksr2=""
+                      >Github</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <button
+                aria-label="Menu Toggle"
+                class="menu-toggle"
+                :class="{ &#39;active&#39;: isActive }"
+                @click="isActive = !isActive; document.body.classList.toggle(&#39;mobile-menu-active&#39;, isActive)"
+                data-astro-cid-3ef6ksr2=""
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="none"
+                  viewBox="0 0 24 10"
+                  data-astro-cid-3ef6ksr2=""
+                >
+                  <path
+                    d="M0,1 H24"
+                    pathLength="1"
+                    stroke-dasharray="1 0.5"
+                    stroke-width="2"
+                    data-astro-cid-3ef6ksr2=""
+                  ></path>
+                  <path
+                    d="M0,9 H24"
+                    pathLength="1"
+                    stroke-dasharray="1 0.5"
+                    stroke-width="2"
+                    data-astro-cid-3ef6ksr2=""
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section
+        class="block block__hero in-view"
+        data-cursor="-inverse"
+        data-astro-cid-bbe6dxrz=""
+      >
+        <span class="block__hero__scroll" data-astro-cid-bbe6dxrz=""
+          >Per Favore</span
+        >
+        <div class="container" data-astro-cid-bbe6dxrz="">
+          <div class="row row--bottom" data-astro-cid-bbe6dxrz="">
+            <div
+              class="column column-m-12 column-t-6"
+              data-astro-cid-bbe6dxrz=""
+            >
+              <div class="block__hero__content" data-astro-cid-bbe6dxrz="">
+                <div class="oh" data-astro-cid-bbe6dxrz="">
+                  <h1 data-astro-cid-bbe6dxrz="">
+                    <span style="transition-delay: 0s">RazioreG</span>
+                    <span style="transition-delay: 0.05s">profil</span>
+                    <span style="transition-delay: 0.1s">deduces</span>
+                    <span style="transition-delay: 0.15000000000000002s"
+                      >from</span
+                    >
+                    <span style="transition-delay: 0.2s">a</span>
+                    <span style="transition-delay: 0.25s">lively</span>
+                    <span style="transition-delay: 0.30000000000000004s"
+                      >account.</span
+                    >
+                  </h1>
+                </div>
+                <p data-astro-cid-bbe6dxrz="">
+                  This is a website for some newly developed ideas of mine. Based in Jinan, Eastlands. Connected to the world. Served as a creative zone and an archieve.
+                </p>
+                <a
+                  href="https://rota.agency/contact/"
+                  class="button button--dark"
+                  data-astro-cid-bbe6dxrz=""
+                  >&nbsp;&nbsp;About&nbsp;&nbsp; <span data-astro-cid-bbe6dxrz=""></span
+                ></a>
+                    </div>
+                </div>
+                <div class="column column-m-12 column-t-6 hide-mobile" data-astro-cid-bbe6dxrz="">
+                    <div class="block__hero__image" data-astro-cid-bbe6dxrz="">
+                        <img src="./img/page-4.jpg" alt="Web Design Agency Rutland" data-astro-cid-bbe6dxrz="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="block block__cards in-view" data-astro-cid-i5mwzbw6="">
+            <div class="container" data-astro-cid-i5mwzbw6="">
+                <div class="row block__cards__intro" data-astro-cid-i5mwzbw6="">
+                    <div class="column column-m-12" data-astro-cid-i5mwzbw6="">
+                        <h2 data-astro-cid-i5mwzbw6="">
+                            <span style="transition-delay: 0s">Idea</span>
+                            <span style="transition-delay: 0.05s">boomer:</span>
+                            <span style="transition-delay: 0.1s"> latest</span>
+                            <span style="transition-delay: 0.15000000000000002s">blogs</span
+                >
+              </h2>
+              <p data-astro-cid-i5mwzbw6="">
+                No more than what in my head, these splendid moments, no more in my life, beyond reality, which we called, happiness.
+              </p>
+            </div>
+          </div>
+          <div class="row" data-astro-cid-i5mwzbw6="">
+            <div class="column column-m-12" data-astro-cid-i5mwzbw6="">
+              <ul class="card-grid" data-astro-cid-i5mwzbw6="">
+                <li class="link-card in-view" data-astro-cid-dohjnao5="">
+                  <a
+                    href=""
+                    class="link-card in-view"
+                    data-astro-cid-dohjnao5=""
+                  >
+                    <div class="link-card__image" data-astro-cid-dohjnao5="">
+                      <img
+                        src="./img/strategy-research.svg"
+                        alt="Strategy &amp; Research"
+                        data-astro-cid-dohjnao5=""
+                      />
+                    </div>
+                    <div class="link-card__content" data-astro-cid-dohjnao5="">
+                      <h3 data-astro-cid-dohjnao5="">
+                        WallpaperEngine Cracked
+                      </h3>
+                      <p data-astro-cid-dohjnao5="">
+                        A solution for cracked WallpaperEngine edition and how to download specific wallpaper fron online Steam Workshop.
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <!--<li class="link-card in-view" data-astro-cid-dohjnao5="">
+                  <a
+                    href="https://rota.agency/services/website-design-rutland/"
+                    class="link-card in-view"
+                    data-astro-cid-dohjnao5=""
+                  >
+                    <div class="link-card__image" data-astro-cid-dohjnao5="">
+                      <img
+                        src="./img/web-design.svg"
+                        alt="Web Design"
+                        data-astro-cid-dohjnao5=""
+                      />
+                    </div>
+                    <div class="link-card__content" data-astro-cid-dohjnao5="">
+                      <h3 data-astro-cid-dohjnao5="">Web Design</h3>
+                      <p data-astro-cid-dohjnao5="">
+                        Creating visually stunning, user-centric designs that
+                        captivate audiences and provide seamless online
+                        experiences across all devices.
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="link-card in-view" data-astro-cid-dohjnao5="">
+                  <a
+                    href="https://rota.agency/services/web-development-rutland/"
+                    class="link-card in-view"
+                    data-astro-cid-dohjnao5=""
+                  >
+                    <div class="link-card__image" data-astro-cid-dohjnao5="">
+                      <img
+                        src="./img/web-development.svg"
+                        alt="Web Development"
+                        data-astro-cid-dohjnao5=""
+                      />
+                    </div>
+                    <div class="link-card__content" data-astro-cid-dohjnao5="">
+                      <h3 data-astro-cid-dohjnao5="">Web Development</h3>
+                      <p data-astro-cid-dohjnao5="">
+                        Building robust, high-performance websites using
+                        cutting-edge technologies to ensure fast, secure, and
+                        scalable online solutions.
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="link-card in-view" data-astro-cid-dohjnao5="">
+                  <div class="link-card in-view" data-astro-cid-dohjnao5="">
+                    <div class="link-card__image" data-astro-cid-dohjnao5="">
+                      <img
+                        src="./img/branding.svg"
+                        alt="Branding"
+                        data-astro-cid-dohjnao5=""
+                      />
+                    </div>
+                    <div class="link-card__content" data-astro-cid-dohjnao5="">
+                      <h3 data-astro-cid-dohjnao5="">Branding</h3>
+                      <p data-astro-cid-dohjnao5="">
+                        Developing unique brand identities that resonate with
+                        your audience, ensuring memorable and consistent brand
+                        experiences.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="link-card in-view" data-astro-cid-dohjnao5="">
+                  <div class="link-card in-view" data-astro-cid-dohjnao5="">
+                    <div class="link-card__image" data-astro-cid-dohjnao5="">
+                      <img
+                        src="./img/web-hosting.svg"
+                        alt="Web Hosting"
+                        data-astro-cid-dohjnao5=""
+                      />
+                    </div>
+                    <div class="link-card__content" data-astro-cid-dohjnao5="">
+                      <h3 data-astro-cid-dohjnao5="">Web Hosting</h3>
+                      <p data-astro-cid-dohjnao5="">
+                        Providing reliable, secure web hosting services with
+                        24/7 support, ensuring your site is always online and
+                        performing optimally.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="link-card in-view" data-astro-cid-dohjnao5="">
+                  <div class="link-card in-view" data-astro-cid-dohjnao5="">
+                    <div class="link-card__image" data-astro-cid-dohjnao5="">
+                      <img
+                        src="./img/email-marketing.svg"
+                        alt="Email Marketing"
+                        data-astro-cid-dohjnao5=""
+                      />
+                    </div>
+                    <div class="link-card__content" data-astro-cid-dohjnao5="">
+                      <h3 data-astro-cid-dohjnao5="">Email Marketing</h3>
+                      <p data-astro-cid-dohjnao5="">
+                        Designing targeted email campaigns that engage and
+                        convert, driving customer loyalty and boosting your ROI.
+                      </p>
+                    </div>
+                  </div>
+                </li>-->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="block block__background-image block__bg--light in-view"
+        style="
+          background-image: url(&#39;img/page-17.jpg&#39;);
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+        "
+        data-astro-cid-tvwxzst6=""
+      >
+        <div class="container" data-astro-cid-tvwxzst6="">
+          <div class="row row--middle" data-astro-cid-tvwxzst6="">
+            <div
+              class="column column-m-12 column-t-5"
+              data-astro-cid-tvwxzst6=""
+            >
+              <div
+                class="block__background-image__content"
+                data-astro-cid-tvwxzst6=""
+              >
+                <h2 data-astro-cid-tvwxzst6="">
+                  <span style="transition-delay: 0s">Already</span>
+                            <span style="transition-delay: 0.05s">be</span>
+                            <span style="transition-delay: 0.1s">There</span>
+                        </h2>
+                        <p data-astro-cid-tvwxzst6="">
+                            Wait! It's under construction at the moment. What would be expected to be added here? 😝😝
+                        </p>
+                        <a href="https://rota.agency/about/" class="button button--dark" data-astro-cid-tvwxzst6="">&nbsp;&nbsp;Contact&nbsp;&nbsp;<span data-astro-cid-tvwxzst6=""></span
+                ></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="overlay overlay--light" data-astro-cid-tvwxzst6=""></div>
+        </section>
+        <section class="block block__work in-view" id="work" data-astro-cid-wkx7uqji="">
+            <div class="container" data-astro-cid-wkx7uqji="">
+                <div class="row" data-astro-cid-wkx7uqji="">
+                    <div class="column column-m-12" data-astro-cid-wkx7uqji="">
+                        <div class="block__work__intro" data-astro-cid-wkx7uqji="">
+                            <h2 data-astro-cid-wkx7uqji="">
+                                <span style="transition-delay: 0s">My</span>
+                                <span style="transition-delay: 0.05s">Work</span>
+                            </h2>
+                            <p data-astro-cid-wkx7uqji="">
+                                Embrace transformed masterpieces. Keen on the websites brings colourful experiences, so would every other things do.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work-grid" data-astro-cid-wkx7uqji="">
+                <div class="work-item" data-astro-cid-zmauy3r6="">
+                    <div class="work-item__image" data-astro-cid-zmauy3r6="">
+                        <img src="./img/raziore.png" alt="University of Cambridge" data-astro-cid-zmauy3r6="" />
+                    </div>
+                    <div class="work-item__content" data-astro-cid-zmauy3r6="">
+                        <h3 data-astro-cid-zmauy3r6="">Raziore</h3>
+                        <p data-astro-cid-zmauy3r6="">
+                            Web Design / Web Development / Netlify CMS
+                        </p>
+                        <a href="https://raziore.netlify.app/" class="external" target="_blank" data-astro-cid-zmauy3r6="">Visit Website</a
+              >
+            </div>
+          </div>
+          <!--<div class="work-item" data-astro-cid-zmauy3r6="">
+            <div class="work-item__image" data-astro-cid-zmauy3r6="">
+              <img
+                src="./img/sadlers-wells.png"
+                alt="Sadler&#39;s Wells"
+                data-astro-cid-zmauy3r6=""
+              />
+            </div>
+            <div class="work-item__content" data-astro-cid-zmauy3r6="">
+              <h3 data-astro-cid-zmauy3r6="">Sadler's Wells</h3>
+              <p data-astro-cid-zmauy3r6="">
+                Web Design / Web Development / WordPress CMS
+              </p>
+              <a
+                href="https://academybreakinconvention.com/"
+                class="external"
+                target="_blank"
+                data-astro-cid-zmauy3r6=""
+                >Visit Website</a
+              >
+            </div>
+          </div>
+          <div class="work-item" data-astro-cid-zmauy3r6="">
+            <div class="work-item__image" data-astro-cid-zmauy3r6="">
+              <img
+                src="./img/urban-greens.png"
+                alt="Urban Greens"
+                data-astro-cid-zmauy3r6=""
+              />
+            </div>
+            <div class="work-item__content" data-astro-cid-zmauy3r6="">
+              <h3 data-astro-cid-zmauy3r6="">Urban Greens</h3>
+              <p data-astro-cid-zmauy3r6="">
+                Web Design / Web Development / WordPress CMS
+              </p>
+              <a
+                href="https://urbangreens.co.uk/"
+                class="external"
+                target="_blank"
+                data-astro-cid-zmauy3r6=""
+                >Visit Website</a
+              >
+            </div>
+          </div>
+          <div class="work-item" data-astro-cid-zmauy3r6="">
+            <div class="work-item__image" data-astro-cid-zmauy3r6="">
+              <img
+                src="./img/impacted.png"
+                alt="Impacted International"
+                data-astro-cid-zmauy3r6=""
+              />
+            </div>
+            <div class="work-item__content" data-astro-cid-zmauy3r6="">
+              <h3 data-astro-cid-zmauy3r6="">Impacted International</h3>
+              <p data-astro-cid-zmauy3r6="">Web Design / Web Development</p>
+              <a
+                href="https://impacted.org/"
+                class="external"
+                target="_blank"
+                data-astro-cid-zmauy3r6=""
+                >Visit Website</a
+              >
+            </div>
+          </div>-->
+        </div>
+      </section>
+      <section
+        class="block block__bg--light block__faqs in-view"
+        data-astro-cid-vaazyeln=""
+      >
+        <div class="container" data-astro-cid-vaazyeln="">
+          <div class="row block__faqs__intro" data-astro-cid-vaazyeln="">
+            <div
+              class="column column-m-12 column-t-6"
+              data-astro-cid-vaazyeln=""
+            >
+              <h2 data-astro-cid-vaazyeln="">
+                <span style="transition-delay: 0s">Under Construction</span>
+              </h2>
+              <p data-astro-cid-vaazyeln="">
+                Here, what's this sectoin about? 😅
+              </p>
+            </div>
+            <div
+              class="column column-m-12 column-t-6"
+              data-astro-cid-vaazyeln=""
+            >
+              <div class="faqs" data-astro-cid-vaazyeln="">
+                <section
+                  class="faq-item"
+                  x-data="{ open: false }"
+                  data-astro-cid-z6gx6xcw=""
+                >
+                  <div class="faq-item__content" data-astro-cid-z6gx6xcw="">
+                    <h4
+                      @click="open = !open"
+                      :class="{ &#39;active&#39;: open }"
+                      class="cursor-pointer"
+                      data-astro-cid-z6gx6xcw=""
+                    >
+                    abababababababababababababababababababab?
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                        data-astro-cid-z6gx6xcw=""
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                          data-astro-cid-z6gx6xcw=""
+                        ></path>
+                      </svg>
+                    </h4>
+                    <p
+                      x-show="open"
+                      x-transition=""
+                      data-astro-cid-z6gx6xcw=""
+                      style="display: none"
+                    >
+                    balabalabalabalabalabalabalabalabalabala
+                    balabalabalabalabalabalabalabalabalabala
+                    balabalabalabalabalabalabalabalabalabala
+                    balabalabalabalabalabalabalabalabalabala
+                    </p>
+                  </div>
+                </section>
+                <!--<section
+                  class="faq-item"
+                  x-data="{ open: false }"
+                  data-astro-cid-z6gx6xcw=""
+                >
+                  <div class="faq-item__content" data-astro-cid-z6gx6xcw="">
+                    <h4
+                      @click="open = !open"
+                      :class="{ &#39;active&#39;: open }"
+                      class="cursor-pointer"
+                      data-astro-cid-z6gx6xcw=""
+                    >
+                      How long will my website take?
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                        data-astro-cid-z6gx6xcw=""
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                          data-astro-cid-z6gx6xcw=""
+                        ></path>
+                      </svg>
+                    </h4>
+                    <p
+                      x-show="open"
+                      x-transition=""
+                      data-astro-cid-z6gx6xcw=""
+                      style="display: none"
+                    >
+                      The timeline for completing a website depends on the scope
+                      of the project. For a standard website design in Rutland,
+                      it typically takes between 4 to 8 weeks from start to
+                      finish. However, more complex web designs in Rutland might
+                      take longer, depending on the features and revisions
+                      required.
+                    </p>
+                  </div>
+                </section>
+                <section
+                  class="faq-item"
+                  x-data="{ open: false }"
+                  data-astro-cid-z6gx6xcw=""
+                >
+                  <div class="faq-item__content" data-astro-cid-z6gx6xcw="">
+                    <h4
+                      @click="open = !open"
+                      :class="{ &#39;active&#39;: open }"
+                      class="cursor-pointer"
+                      data-astro-cid-z6gx6xcw=""
+                    >
+                      What do I need to get started?
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                        data-astro-cid-z6gx6xcw=""
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                          data-astro-cid-z6gx6xcw=""
+                        ></path>
+                      </svg>
+                    </h4>
+                    <p
+                      x-show="open"
+                      x-transition=""
+                      data-astro-cid-z6gx6xcw=""
+                      style="display: none"
+                    >
+                      To get started we’ll need some basic information about
+                      your business, your target audience, and your goals for
+                      the site. Additionally, having any existing branding
+                      materials, such as logos and content, will help speed up
+                      the process of your website design in Rutland.
+                    </p>
+                  </div>
+                </section>
+                <section
+                  class="faq-item"
+                  x-data="{ open: false }"
+                  data-astro-cid-z6gx6xcw=""
+                >
+                  <div class="faq-item__content" data-astro-cid-z6gx6xcw="">
+                    <h4
+                      @click="open = !open"
+                      :class="{ &#39;active&#39;: open }"
+                      class="cursor-pointer"
+                      data-astro-cid-z6gx6xcw=""
+                    >
+                      I've already got a web designer, can you do web
+                      development only?
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                        data-astro-cid-z6gx6xcw=""
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                          data-astro-cid-z6gx6xcw=""
+                        ></path>
+                      </svg>
+                    </h4>
+                    <p
+                      x-show="open"
+                      x-transition=""
+                      data-astro-cid-z6gx6xcw=""
+                      style="display: none"
+                    >
+                      Yes, we can provide web development services if you
+                      already have a web designer. Our team has extensive
+                      experience in working with web designers in Rutland to
+                      bring their designs to life. Whether you’re based locally
+                      or elsewhere, we’re equipped to handle the technical side
+                      of website design in Rutland, ensuring your site is
+                      functional and optimized.
+                    </p>
+                  </div>
+                </section>
+                <section
+                  class="faq-item"
+                  x-data="{ open: false }"
+                  data-astro-cid-z6gx6xcw=""
+                >
+                  <div class="faq-item__content" data-astro-cid-z6gx6xcw="">
+                    <h4
+                      @click="open = !open"
+                      :class="{ &#39;active&#39;: open }"
+                      class="cursor-pointer"
+                      data-astro-cid-z6gx6xcw=""
+                    >
+                      I already have a web developer, can you do web design
+                      only?
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                        data-astro-cid-z6gx6xcw=""
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                          data-astro-cid-z6gx6xcw=""
+                        ></path>
+                      </svg>
+                    </h4>
+                    <p
+                      x-show="open"
+                      x-transition=""
+                      data-astro-cid-z6gx6xcw=""
+                      style="display: none"
+                    >
+                      Absolutely! If you have a web developer but need
+                      professional web design services in Rutland, we can
+                      collaborate to create a visually stunning and
+                      user-friendly site. Our website design in Rutland focuses
+                      on creating designs that not only look great but also
+                      align with your brand and goals.
+                    </p>
+                  </div>
+                </section>
+                <section
+                  class="faq-item"
+                  x-data="{ open: false }"
+                  data-astro-cid-z6gx6xcw=""
+                >
+                  <div class="faq-item__content" data-astro-cid-z6gx6xcw="">
+                    <h4
+                      @click="open = !open"
+                      :class="{ &#39;active&#39;: open }"
+                      class="cursor-pointer"
+                      data-astro-cid-z6gx6xcw=""
+                    >
+                      Will I be able to edit my website once completed?
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                        data-astro-cid-z6gx6xcw=""
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                          data-astro-cid-z6gx6xcw=""
+                        ></path>
+                      </svg>
+                    </h4>
+                    <p
+                      x-show="open"
+                      x-transition=""
+                      data-astro-cid-z6gx6xcw=""
+                      style="display: none"
+                    >
+                      Yes, once your website is completed, you will be able to
+                      make edits. We typically use WordPress or Netlify CMS for
+                      our web designs in Rutland, which allows for easy content
+                      updates. Whether it’s a blog post or updating your
+                      portfolio, you’ll have full control over your website’s
+                      content.
+                    </p>
+                  </div>
+                </section>
+                <section
+                  class="faq-item"
+                  x-data="{ open: false }"
+                  data-astro-cid-z6gx6xcw=""
+                >
+                  <div class="faq-item__content" data-astro-cid-z6gx6xcw="">
+                    <h4
+                      @click="open = !open"
+                      :class="{ &#39;active&#39;: open }"
+                      class="cursor-pointer"
+                      data-astro-cid-z6gx6xcw=""
+                    >
+                      Will my website be Search Engine Friendly?
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                        data-astro-cid-z6gx6xcw=""
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                          data-astro-cid-z6gx6xcw=""
+                        ></path>
+                      </svg>
+                    </h4>
+                    <p
+                      x-show="open"
+                      x-transition=""
+                      data-astro-cid-z6gx6xcw=""
+                      style="display: none"
+                    >
+                      Definitely! Our web design services in Rutland include
+                      optimizing your site for search engines. We ensure that
+                      your website design in Rutland follows SEO best practices,
+                      helping you rank better on search engines and attract more
+                      visitors to your site.
+                    </p>
+                  </div>
+                </section>
+                <section
+                  class="faq-item"
+                  x-data="{ open: false }"
+                  data-astro-cid-z6gx6xcw=""
+                >
+                  <div class="faq-item__content" data-astro-cid-z6gx6xcw="">
+                    <h4
+                      @click="open = !open"
+                      :class="{ &#39;active&#39;: open }"
+                      class="cursor-pointer"
+                      data-astro-cid-z6gx6xcw=""
+                    >
+                      Do you provide web hosting?
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                        data-astro-cid-z6gx6xcw=""
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                          data-astro-cid-z6gx6xcw=""
+                        ></path>
+                      </svg>
+                    </h4>
+                    <p
+                      x-show="open"
+                      x-transition=""
+                      data-astro-cid-z6gx6xcw=""
+                      style="display: none"
+                    >
+                      Yes, we provide web hosting services as part of our
+                      comprehensive web design in Rutland. We can help you
+                      choose the best hosting solution for your website,
+                      ensuring it’s fast, secure, and reliable. Hosting is a
+                      crucial aspect of maintaining your website design in
+                      Rutland, and we’ve got you covered.
+                    </p>
+                  </div>
+                </section>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" role="contentinfo" data-astro-cid-sz7xmlte="">
+      <span class="footer__scroll" data-astro-cid-sz7xmlte=""
+        >Per Favore</span
+      >
+      <div class="footer__top" data-astro-cid-sz7xmlte="">
+        <div class="footer__top__left" data-astro-cid-sz7xmlte="">
+          <img
+            src="./img/eye.svg"
+            alt=""
+            data-astro-cid-sz7xmlte=""
+          />
+          <h2 data-astro-cid-sz7xmlte="">
+            <span style="transition-delay: 0s">Like</span>
+            <span style="transition-delay: 0.05s">what</span>
+            <span style="transition-delay: 0.1s">you</span>
+            <span style="transition-delay: 0.15000000000000002s">see?</span>
+          </h2>
+          <p data-astro-cid-sz7xmlte="">
+            If you've made it down this far, why not send me an email? If you wish to see something interesting, I’d
+            love to hear from you.
+          </p>
+          <a
+            class="button"
+            href="https://rota.agency/contact"
+            data-astro-cid-sz7xmlte=""
+            >&nbsp;&nbsp;Contact&nbsp;&nbsp;<span data-astro-cid-sz7xmlte=""></span
+          ></a>
+                    </div>
+                    <div class="footer__top__right" data-astro-cid-sz7xmlte="">
+                        <img src="./img/news.svg" alt="" data-astro-cid-sz7xmlte="" />
+                        <h2 data-astro-cid-sz7xmlte="">
+                            <span style="transition-delay: 0s">Keep</span>
+                            <span style="transition-delay: 0.05s">in</span>
+                            <span style="transition-delay: 0.1s">touch</span>
+                            <span style="transition-delay: 0.15000000000000002s">!</span>
+                        </h2>
+                        <form data-astro-cid-sz7xmlte="" method="get" action="mailto:enzoraziore@outlook.com" enctype="text/plain">
+                            <input name="subject" type="hidden" value="Subscription For RazioreG" />
+                            <input type="hidden" name="form-name" value="index footer form" />
+                            <input name="body" type="text" placeholder="Your Idea..." data-astro-cid-sz7xmlte="" />
+                            <button class="button" type="submit" data-astro-cid-sz7xmlte="">
+                              &nbsp;&nbsp;Subscribe&nbsp;&nbsp;<span data-astro-cid-sz7xmlte=""></span>
+            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer__bottom" data-astro-cid-sz7xmlte="">
+                    <div class="container" data-astro-cid-sz7xmlte="">
+                        <div class="row" data-astro-cid-sz7xmlte="">
+                            <div class="column column-m-12" data-astro-cid-sz7xmlte="">
+                                <div class="row row--justified" data-astro-cid-sz7xmlte="">
+                                    <div class="footer__bottom__legal" data-astro-cid-sz7xmlte="">
+                                        <p data-astro-cid-sz7xmlte="">
+                                            ©RazioreG 2024. All Rights Reserved.<br data-astro-cid-sz7xmlte="" />RazioreG is relative with
+                                            <a href="https://raziore.netlify.app/" data-astro-cid-sz7xmlte="">Raziore</a
+                    >
+                    .&nbsp;Themed by Rōta. Made with ❤️
+                  </p>
+                </div>
+                <!-- <div class="footer__bottom__social">
+							<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+                                            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+                                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </footer>
+                <script src="./assets/site.js" type="module" defer=""></script>
+</body>
+
+</html>
