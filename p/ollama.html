@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>RazioreG Blog Prologue</title>
+    <title>Ollama</title>
     <link rel="canonical" href="">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="">
@@ -82,28 +82,122 @@
         <article>
             <div class="container--blog">
                 <div class="post content-box">
-                    <div class="post__content"> <img src="./img/prologue.jpg" alt="">
+                    <div class="post__content"> <img src="./img/ollama.com.after.jpeg" alt="">
                         <div>
-                            <h1>RazioreG Blog Prologue</h1>
+                            <h1>Ollama本地部署AI大模型及webui</h1>
                             <h4>
-                                Few bloggers like me would write a prologue for their posts. Even fewer visitors would read of cause. However, my intrinsic tells me that a proper summary or preface is needed, to save my perplexed thoughts.
+                                因为众多AI对AMD显卡不太友好，所以我这台机器不好部署本地AI模型，尤其是文生图大模型（LLaVM）
                             </h4>
                             <h4>
-                                I would like to introduce my opinions and purposes. To write a blog is to record something. Maybe thoughts, experiences, memories, or attitudes. Whatever these are, they aim not only at the readers, but also the writers. As I’m yet confused about my values
-                                and worths in the fields I love, I’m still not sure to share something of mine to the public. Love needs time, I believe. But what about the growing process? You feel sorry to discard it, but feel rather confused whether
-                                to share it or not. Sharing something, especially something we like, always gives us a sense of accomplishment.
+                                因此找到一个叫Ollama的（对就是羊驼）nb玩意
                             </h4>
                             <h4>
-                                I take it as open source usually. They have something in common. Share without selfishness. But that doesn’t mean no doubts or so. For our own fulfilment, I believe. Whether practical usage or aesthetic enjoyment, they were decided to be without attributes
-                                or copyrights when they were created. Not mention the process of their spreading. Unfairness derives from the inequalities of propagations of information. In fact, a very considerable part of the economy is based on huge
-                                information inequalities in my opinion. What we people can do is only a very tiny thing. Because the huge machine of so-called economy conceals massive dirt, at least in the rather grassroots, I mean. Peddlers or dealers
-                                use information inequalities to make profits from their poor customers, especially in China, as far as I’ve known. Undoubtedly this means unfairness, and that’s what open-source communities are for at one aspect.
+                                nb在哪呢？
                             </h4>
                             <h4>
-                                From my own side, this just means a normal life, no different from those customers. But thinking carefully, you’ll find we all are the customers. We used to be, have been, and will always be. We all live in the gears of economy. Besides, from the angle
-                                of community contribution, most contributors would take priority of his/her own side, then come the importance of the whole community. Speaking more specifically, resources or contents contributors provide would service
-                                to some certain individuals. And most of the time, contributors would never know whom they serve for or if anyone has been helped, because they hardly get any feedback. Thus, I am expecting not the feedbacks from my <i>customers</i>,
-                                but feedbacks from my own heart. Once this topic is written down, my expectations are half completed. For the customers, for me.
+                                支持macOS、Linux、Windows
+                            </h4>
+                            <h4>
+                                而且居然还在长城里边（）
+                            </h4>
+                            <h4>
+                                憨憨的
+                            </h4>
+                            <img src="./img/ollama.png" alt="">
+                            <h4>
+                                这玩意是用cpu跑的，那不就好办了吗。我这边大哥是R7-8845H，整天闲着也不好
+                            </h4>
+                            <h4>
+                                先上官网下Ollama程序本体，不大（Windows版664MB）
+                            </h4>
+                            <h4><a href="https://ollama.com/" target="_blank">https://ollama.com/</a></h4>
+                            <h4>
+                                啊对这个不用登录，直接下就行，妥妥良心<br>
+                            </h4>
+                            <img src="./img/ollama.com.jpeg" alt="">
+                            <h4>
+                                随便安装好之后回到官网，进到Models
+                            </h4>
+                            <h4>
+                                这里面展示的是Ollama支持的模型，注意区别各个模型的版本号和不同的体积选项
+                            </h4>
+                            <h4>
+                                一般来说，模型版本越新越好，体积大小决定了跑模型的时候加载的数据多少，从而影响生成内容的质量和响应速度。体积越大，需要越好的cpu性能和内存大小，上下文长度越大，生成内容质量越好，响应速度越慢
+                            </h4>
+                            <h4>
+                                我比较喜欢谷歌的gemma2，一般选2B就够用了。当然一样推荐的还有Meta的llama、微软的phi、阿里的qwen（千义）、mistral 点开一个模型之后（这里以gemma2 2B为例），选择体积（一定一定要看好），我选择2B，看到右边那一行
+                            </h4>
+                            <p><strong>
+                                ollama run gemma2:2b
+                            </strong></p>
+                            <h4>
+                                我还是会建议你把run改成pull，比较安心。
+                            </h4>
+                            <h4>
+                                粘到命令行里
+                            </h4>
+                            <p><strong>
+                                ollama pull gemma2:2b
+                            </strong></p>
+                            <h4>
+                                其实后面熟悉的话可以自己往cmd里敲，包括版本号啥的 然后让他慢慢跑完。一开始他下的还挺快的，后来越来越慢，最后甚至只有几十k，但是一般半小时以内就能下完
+                            </h4>
+                            <h4>
+                                然后，就可以
+                            </h4>
+                            <p><strong>
+                                ollama run gemma2:2b
+                            </strong></p>
+                            <h4>
+                                然后你就能愉快的和AI聊了😊
+                            </h4>
+                            <h4>
+                                对，绝大多数模型都支持多种语言，随便聊没有问题的。
+                            </h4>
+                            <br>
+                            <h4>
+                                OK正片结束，以下是<b>进阶</b>（闲篇）
+                            </h4>
+                            <h4>
+                                众所周知，Windows的这什么cmd就是个大黑框框，虽然现在改的win11了一点，但还是大黑框框。为了不委屈你的审美，这玩意还是调教调教合适
+                            </h4>
+                            <h4>
+                                就是简单的设置一下，在cmd界面仔细找找你就能找到藏在下拉列表里的设置（Windows还贴心的写上了快捷键Ctrl+,）
+                            </h4>
+                            <h4>
+                                在外观里启用亚克力，命令提示符>外观里调整背景图像、不透明度
+                            </h4>
+                            <h4>
+                                背景图像还能设成当前的桌面壁纸，好评👍
+                            </h4>
+                            <h4>
+                                这样不就好看多了
+                            </h4>
+                            <img src="./img/cmd.png" alt="">
+                            <h4>
+                                扯完了cmd，再说Ollama的事
+                            </h4>
+                            <h4>
+                                诶他肯定有对不对，大神们早就提前做好了
+                                <br><br> 推荐这个大名鼎鼎的：
+                                <a href="https://openwebui.com" target="_blank">https://openwebui.com</a>
+                                <br><br> Github开源
+                                <br><br>
+                                <a href="https://github.com/open-webui/open-webui" target="_blank">https://github.com/open-webui/open-webui</a>
+                                <br><br> 大神，这必须得给个star
+                                <br><br> 下载最新Release
+                                <br><br> 或者，如果你有git
+                            </h4>
+                            <p><strong>
+                                git clone https://github.com/open-webui/open-webui.git
+                            </strong></p>
+                            <h4>
+                                然后看官方文档就行了
+                                <br><br>
+                                <a href="https://docs.openwebui.com" target="_blank">https://docs.openwebui.com</a>
+                                <br><br> 真的不能再详细了
+                                <br><br> 安装方式包括Docker(Recommend)和Pip、Github版
+                                <br><br> 我知道这几个看上去都挺陌生的，所以详细的实操过程再单独分几篇来写，因为这每一个拿出来牵扯到的都是大头😶‍🌫️
                             </h4>
                             <p><i>Last edit: 10/14/2024</i></p>
                         </div>
